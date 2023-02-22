@@ -12,39 +12,39 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.mainmenu);
     }
     public void menu(View view){
-        Intent intent = new Intent(MainActivity.this,activity_linear.class);
+        Intent intent = new Intent(MainActivity.this, ActivityLinear.class);
         startActivity(intent);
     }
     public void menu2(View view){
-        Intent intent = new Intent(MainActivity.this,activity_relative.class);
+        Intent intent = new Intent(MainActivity.this, ActivityRelative.class);
         startActivity(intent);
     }
     public void menu3(View view){
-        Intent intent = new Intent(MainActivity.this,activity_constraint.class);
+        Intent intent = new Intent(MainActivity.this, ActivityConstraint.class);
         startActivity(intent);
     }public void menu4(View view){
-        Intent intent = new Intent(MainActivity.this,activity_frame.class);
+        Intent intent = new Intent(MainActivity.this, ActivityFrame.class);
 
         startActivity(intent);
     }
 
     public void menu5(View view){
-        Intent intent = new Intent(MainActivity.this,activity_table.class);
+        Intent intent = new Intent(MainActivity.this, ActivityTable.class);
 
         startActivity(intent);
     }
     public void menu6(View view){
-        Intent intent = new Intent(MainActivity.this,activity_material_design.class);
+        Intent intent = new Intent(MainActivity.this, ActivityMaterialDesign.class);
 
         startActivity(intent);
     }
     public void menu7(View view){
-        Intent intent = new Intent(MainActivity.this,activity_scroll_view_horizontal.class);
+        Intent intent = new Intent(MainActivity.this, ActivityScrollViewHorizontal.class);
 
         startActivity(intent);
     }
     public void menu8(View view){
-        Intent intent = new Intent(MainActivity.this,activity_scroll_view_vertical.class);
+        Intent intent = new Intent(MainActivity.this, ActivityScrollViewVertical.class);
 
         startActivity(intent);
     }

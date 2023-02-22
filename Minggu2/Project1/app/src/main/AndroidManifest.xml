@@ -12,6 +12,30 @@
         android:theme="@style/Theme.Project1"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityLinear"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConstraint"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityFrame"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMaterialDesign"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRelative"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScrollViewHorizontal"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityScrollViewVertical"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTable"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

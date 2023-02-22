@@ -1,6 +1,5 @@
 package com.example.project1;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.app.DatePickerDialog;
 import android.text.InputType;
@@ -8,14 +7,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.Calendar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class activity_relative extends AppCompatActivity {
+public class ActivityRelative extends AppCompatActivity {
     DatePickerDialog picker;
     EditText eText;
     Button btnGet;
@@ -37,7 +35,7 @@ public class activity_relative extends AppCompatActivity {
                 int month = cldr.get(Calendar.MONTH);
                 int year = cldr.get(Calendar.YEAR);
                 //date picker dialog
-                picker = new DatePickerDialog(activity_relative.this,
+                picker = new DatePickerDialog(ActivityRelative.this,
                         new DatePickerDialog.OnDateSetListener() {
                             @Override
                             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
