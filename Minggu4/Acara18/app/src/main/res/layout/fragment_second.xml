@@ -3,14 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".SecondFragment">
+    tools:context=".SecondFragment"
+    android:background="@color/black">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:text="this is Second Fragment"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="25sp"/>
     <Button
         android:id="@+id/secondButton"
@@ -21,7 +22,7 @@
         android:text="Second Fragment"
         android:layout_marginRight="20dp"
         android:background="@color/teal_200"
-        android:textColor="@color/white"
+        android:textColor="@color/green"
         android:textSize="20sp"
         android:textStyle="bold"/>
 </RelativeLayout>

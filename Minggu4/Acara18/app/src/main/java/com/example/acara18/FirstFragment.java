@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 //import androidx.fragment.app.Fragment;
 
@@ -15,7 +16,7 @@ public class FirstFragment extends Fragment {
     View view;
     Button firstButton;
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         // inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_first, container, false);
 
