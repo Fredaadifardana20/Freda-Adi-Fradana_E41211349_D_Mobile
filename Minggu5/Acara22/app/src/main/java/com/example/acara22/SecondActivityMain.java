@@ -34,7 +34,7 @@ public class SecondActivityMain extends AppCompatActivity {
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Toast.makeText(getApplication(),"ERROR, TRY AGAN!",Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplication(),"ERROR, TRY AGAIN!",Toast.LENGTH_SHORT);
                 }
             }
         });
